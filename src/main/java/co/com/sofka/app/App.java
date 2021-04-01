@@ -28,6 +28,6 @@ public class App
         BasicCalculator calculator = new BasicCalculator();
         Long result = calculator.divide( number1, number2 );
 
-        System.out.println( number1 + " + " + number2 + " = " + result );
+        System.out.println( number1 + " / " + number2 + " = " + result );
     }
 }
